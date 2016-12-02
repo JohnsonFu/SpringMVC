@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hello,World!!
+	用户信息<br>
+	用户名：${user.username }<br>
+	密码：${user.password }<br>
+	<font color="red">欢迎登陆！！！</font><br>
 </body>
 </html>

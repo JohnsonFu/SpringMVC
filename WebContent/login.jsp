@@ -6,7 +6,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
+
 <body>
-Hello,World!!
+${error }
+	<form action="login.do" method="post">
+		用户登陆<br>
+		<hr>		
+		用户名：<input type="text" name="username"><br>
+		密码：<input type="text" name="password"><br>
+		<input type="submit" value="登陆">
+	</form>
+
 </body>
+
 </html>
