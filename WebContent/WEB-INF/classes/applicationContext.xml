@@ -13,7 +13,7 @@
 	</bean>
 	<bean id="daoimpl" class="com.example.controller.Impl.DaoImpl">
 	</bean>
-	<bean class="com.example.controller.service.Impl.IServiceImpl">
+	<bean name="service" class="com.example.controller.service.Impl.IServiceImpl">
 	<property name="dao" ref="daoimpl"></property>
 	</bean>
 	<bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
